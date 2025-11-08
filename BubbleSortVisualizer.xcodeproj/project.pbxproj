@@ -22,26 +22,26 @@
 			containerPortal = D3C557872DB6CD5A00F0F4D0 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = D3C5578E2DB6CD5A00F0F4D0;
-			remoteInfo = Yash;
+			remoteInfo = BubbleSortVisualizer;
 		};
 		D3C557AA2DB6CD5C00F0F4D0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D3C557872DB6CD5A00F0F4D0 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = D3C5578E2DB6CD5A00F0F4D0;
-			remoteInfo = Yash;
+			remoteInfo = BubbleSortVisualizer;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		D3C5578F2DB6CD5A00F0F4D0 /* Yash.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Yash.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3C5578F2DB6CD5A00F0F4D0 /* BubbleSortVisualizer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BubbleSortVisualizer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3C557922DB6CD5A00F0F4D0 /* YashApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YashApp.swift; sourceTree = "<group>"; };
 		D3C557942DB6CD5A00F0F4D0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D3C557962DB6CD5C00F0F4D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D3C557992DB6CD5C00F0F4D0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		D3C5579F2DB6CD5C00F0F4D0 /* YashTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YashTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3C5579F2DB6CD5C00F0F4D0 /* BubbleSortVisualizerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BubbleSortVisualizerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3C557A32DB6CD5C00F0F4D0 /* YashTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YashTests.swift; sourceTree = "<group>"; };
-		D3C557A92DB6CD5C00F0F4D0 /* YashUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YashUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3C557A92DB6CD5C00F0F4D0 /* BubbleSortVisualizerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BubbleSortVisualizerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3C557AD2DB6CD5C00F0F4D0 /* YashUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YashUITests.swift; sourceTree = "<group>"; };
 		D3C557AF2DB6CD5C00F0F4D0 /* YashUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YashUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -74,9 +74,9 @@
 		D3C557862DB6CD5A00F0F4D0 = {
 			isa = PBXGroup;
 			children = (
-				D3C557912DB6CD5A00F0F4D0 /* Yash */,
-				D3C557A22DB6CD5C00F0F4D0 /* YashTests */,
-				D3C557AC2DB6CD5C00F0F4D0 /* YashUITests */,
+				D3C557912DB6CD5A00F0F4D0 /* BubbleSortVisualizer */,
+				D3C557A22DB6CD5C00F0F4D0 /* BubbleSortVisualizerTests */,
+				D3C557AC2DB6CD5C00F0F4D0 /* BubbleSortVisualizerUITests */,
 				D3C557902DB6CD5A00F0F4D0 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -91,7 +91,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		D3C557912DB6CD5A00F0F4D0 /* Yash */ = {
+		D3C557912DB6CD5A00F0F4D0 /* BubbleSortVisualizer */ = {
 			isa = PBXGroup;
 			children = (
 				D3C557922DB6CD5A00F0F4D0 /* YashApp.swift */,
@@ -99,7 +99,7 @@
 				D3C557962DB6CD5C00F0F4D0 /* Assets.xcassets */,
 				D3C557982DB6CD5C00F0F4D0 /* Preview Content */,
 			);
-			path = Yash;
+			path = BubbleSortVisualizer;
 			sourceTree = "<group>";
 		};
 		D3C557982DB6CD5C00F0F4D0 /* Preview Content */ = {
@@ -110,29 +110,29 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		D3C557A22DB6CD5C00F0F4D0 /* YashTests */ = {
+		D3C557A22DB6CD5C00F0F4D0 /* BubbleSortVisualizerTests */ = {
 			isa = PBXGroup;
 			children = (
 				D3C557A32DB6CD5C00F0F4D0 /* YashTests.swift */,
 			);
-			path = YashTests;
+			path = BubbleSortVisualizerTests;
 			sourceTree = "<group>";
 		};
-		D3C557AC2DB6CD5C00F0F4D0 /* YashUITests */ = {
+		D3C557AC2DB6CD5C00F0F4D0 /* BubbleSortVisualizerUITests */ = {
 			isa = PBXGroup;
 			children = (
 				D3C557AD2DB6CD5C00F0F4D0 /* YashUITests.swift */,
 				D3C557AF2DB6CD5C00F0F4D0 /* YashUITestsLaunchTests.swift */,
 			);
-			path = YashUITests;
+			path = BubbleSortVisualizerUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		D3C5578E2DB6CD5A00F0F4D0 /* Yash */ = {
+		D3C5578E2DB6CD5A00F0F4D0 /* BubbleSortVisualizer */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D3C557B32DB6CD5C00F0F4D0 /* Build configuration list for PBXNativeTarget "Yash" */;
+			buildConfigurationList = D3C557B32DB6CD5C00F0F4D0 /* Build configuration list for PBXNativeTarget "BubbleSortVisualizer" */;
 			buildPhases = (
 				D3C5578B2DB6CD5A00F0F4D0 /* Sources */,
 				D3C5578C2DB6CD5A00F0F4D0 /* Frameworks */,
@@ -142,14 +142,14 @@
 			);
 			dependencies = (
 			);
-			name = Yash;
-			productName = Yash;
-			productReference = D3C5578F2DB6CD5A00F0F4D0 /* Yash.app */;
+		name = BubbleSortVisualizer;
+			productName = BubbleSortVisualizer;
+			productReference = D3C5578F2DB6CD5A00F0F4D0 /* BubbleSortVisualizer.app */;
 			productType = "com.apple.product-type.application";
 		};
-		D3C5579E2DB6CD5C00F0F4D0 /* YashTests */ = {
+		D3C5579E2DB6CD5C00F0F4D0 /* BubbleSortVisualizerTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D3C557B62DB6CD5C00F0F4D0 /* Build configuration list for PBXNativeTarget "YashTests" */;
+			buildConfigurationList = D3C557B62DB6CD5C00F0F4D0 /* Build configuration list for PBXNativeTarget "BubbleSortVisualizerTests" */;
 			buildPhases = (
 				D3C5579B2DB6CD5C00F0F4D0 /* Sources */,
 				D3C5579C2DB6CD5C00F0F4D0 /* Frameworks */,
@@ -160,14 +160,14 @@
 			dependencies = (
 				D3C557A12DB6CD5C00F0F4D0 /* PBXTargetDependency */,
 			);
-			name = YashTests;
-			productName = YashTests;
-			productReference = D3C5579F2DB6CD5C00F0F4D0 /* YashTests.xctest */;
+			name = BubbleSortVisualizerTests;
+			productName = BubbleSortVisualizerTests;
+			productReference = D3C5579F2DB6CD5C00F0F4D0 /* BubbleSortVisualizerTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		D3C557A82DB6CD5C00F0F4D0 /* YashUITests */ = {
+		D3C557A82DB6CD5C00F0F4D0 /* BubbleSortVisualizerUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D3C557B92DB6CD5C00F0F4D0 /* Build configuration list for PBXNativeTarget "YashUITests" */;
+			buildConfigurationList = D3C557B92DB6CD5C00F0F4D0 /* Build configuration list for PBXNativeTarget "BubbleSortVisualizerUITests" */;
 			buildPhases = (
 				D3C557A52DB6CD5C00F0F4D0 /* Sources */,
 				D3C557A62DB6CD5C00F0F4D0 /* Frameworks */,
@@ -178,9 +178,9 @@
 			dependencies = (
 				D3C557AB2DB6CD5C00F0F4D0 /* PBXTargetDependency */,
 			);
-			name = YashUITests;
-			productName = YashUITests;
-			productReference = D3C557A92DB6CD5C00F0F4D0 /* YashUITests.xctest */;
+			name = BubbleSortVisualizerUITests;
+			productName = BubbleSortVisualizerUITests;
+			productReference = D3C557A92DB6CD5C00F0F4D0 /* BubbleSortVisualizerUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -206,7 +206,7 @@
 					};
 				};
 			};
-			buildConfigurationList = D3C5578A2DB6CD5A00F0F4D0 /* Build configuration list for PBXProject "Yash" */;
+			buildConfigurationList = D3C5578A2DB6CD5A00F0F4D0 /* Build configuration list for PBXProject "BubbleSortVisualizer" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -219,9 +219,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D3C5578E2DB6CD5A00F0F4D0 /* Yash */,
-				D3C5579E2DB6CD5C00F0F4D0 /* YashTests */,
-				D3C557A82DB6CD5C00F0F4D0 /* YashUITests */,
+				D3C5578E2DB6CD5A00F0F4D0 /* BubbleSortVisualizer */,
+				D3C5579E2DB6CD5C00F0F4D0 /* BubbleSortVisualizerTests */,
+				D3C557A82DB6CD5C00F0F4D0 /* BubbleSortVisualizerUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -435,7 +435,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = k.Yash;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yash.BubbleSortVisualizer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -450,7 +450,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Yash/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"BubbleSortVisualizer/Preview Content\"";
 				DEVELOPMENT_TEAM = QG6D5G6C4L;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -464,7 +464,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = k.Yash;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yash.BubbleSortVisualizer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -483,12 +483,12 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = k.YashTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yash.BubbleSortVisualizerTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Yash.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Yash";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BubbleSortVisualizer.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BubbleSortVisualizer";
 			};
 			name = Debug;
 		};
@@ -503,12 +503,12 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = k.YashTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yash.BubbleSortVisualizerTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Yash.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Yash";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BubbleSortVisualizer.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BubbleSortVisualizer";
 			};
 			name = Release;
 		};
@@ -521,12 +521,12 @@
 				DEVELOPMENT_TEAM = QG6D5G6C4L;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = k.YashUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yash.BubbleSortVisualizerUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = Yash;
+				TEST_TARGET_NAME = BubbleSortVisualizer;
 			};
 			name = Debug;
 		};
@@ -539,12 +539,12 @@
 				DEVELOPMENT_TEAM = QG6D5G6C4L;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = k.YashUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yash.BubbleSortVisualizerUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = Yash;
+				TEST_TARGET_NAME = BubbleSortVisualizer;
 			};
 			name = Release;
 		};
